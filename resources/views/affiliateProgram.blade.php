@@ -1,0 +1,1 @@
+<p>Otp Code Generate {{$code}}</p>

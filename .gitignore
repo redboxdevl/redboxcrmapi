@@ -1,0 +1,57 @@
+# Laravel environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+/node_modules
+/vendor
+
+# Laravel generated files
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Logs and test results
+*.log
+.phpunit.result.cache
+/.phpunit.cache
+/coverage
+
+# IDE settings
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# Laravel / local development tools
+/auth.json
+/Homestead.json
+/Homestead.yaml
+/.phpstorm.meta.php
+/.phpunit-watcher.yml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Compiled and package files
+*.class
+*.jar
+*.war
+*.exe
+*.app
+
+# Python bytecode (if applicable)
+*.py[cod]
+
+# Test reports
+TEST*.xml
+
+# Build output
+/dist
+/target

@@ -1,0 +1,1 @@
+<html> <head> <title>Comming Soon</title> <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> </head> <body style="background:url(https://img.freepik.com/free-vector/red-grunge-style-coming-soon-design_1017-26691.jpg?w=2000); background-repeat:no-repeat; background-position: center center; background-size:contain;"></body> </html>

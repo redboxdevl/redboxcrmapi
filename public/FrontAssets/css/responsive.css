@@ -1,0 +1,465 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.main-header .navbar{
+    background: #fff;
+    padding: 0;
+  }
+  .main-header .navbar-brand {
+    height: auto;
+    padding: 8px 15px;
+    line-height: inherit;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #267b8d;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+.main-header .navbar-nav{
+  padding: 0;
+}
+
+.main-header .navbar-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse {
+    background: #267b8d;
+    padding: 15px 11px;
+}
+
+.main-header .navbar-nav>li>a{
+  border-radius: 15px;
+    margin: 5px 0px;
+}
+
+.main-header .navbar-nav>li.active {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.slider-caption {
+    width: 100%;
+    padding: 20px 0px;
+    padding-bottom: 71px;
+}
+
+.item_caption h1 {
+    font-weight: 700;
+    font-size: 33px;
+    color: #fff;
+}
+
+.item_caption p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 13px 0px;
+}
+
+.item_caption {
+    width: 100%;
+    padding: 26px 0px;
+    padding-bottom: 6px;
+}
+
+.features_item {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.item_data{
+  margin:10px 0px;
+}
+
+.item_data:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 387px;
+    height: 63px;
+    background-color: #fff;
+    right: -5px;
+    bottom: -46px;
+}
+
+.title_box h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 31px;
+}
+
+.title_box p {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.features_menu .nav-tabs>li>a{
+  padding: 5px 11px;
+    font-size: 12px;
+}
+
+.features_content ul li {
+    display: inline-block;
+    width: 100%;
+    max-width: 46%;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.feature_overview{
+  padding-bottom: 104px;
+}
+.p1{
+  top: 0;
+}
+.package_plan_data {
+    width: 100%;
+    text-align: center;
+    background: #e8e8e8;
+    padding: 30px 15px;
+    margin: 10px 0px;
+}
+
+.testimonail_data img {
+    margin: 0px 0px;
+}
+
+.testimonail_data p {
+    font-size: 9px;
+}
+
+.testi_ca {
+    padding: 9px 0px;
+}
+
+.testimonail_data h2 {
+    padding-top: 0;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+.changestes .testi_ca {
+    padding-left: 10px;
+}
+
+.testimonail_client{
+  padding: 30px 0px;
+}
+
+.faq_img {
+    padding: 0px 0px;
+}
+.faq_img img{
+    width:100%;
+}
+
+.img-buy-features {
+    position: relative;
+    top: 0;
+}
+
+.img-buy-features img{
+    width:100%;
+}
+
+.img-caption_iphone {
+    text-align: left;
+    padding: 0px 0px;
+    width: 100%;
+    position: relative;
+    right: 0;
+    z-index: 1;
+    max-width: 175px;
+}
+
+.slider_carousel {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 100%;
+    max-width: 246px;
+    z-index: -1;
+}
+
+.img-caption_iphone img{
+    position:relative;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+  .slider_carousel {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    width: 100%;
+    max-width: 246px;
+    z-index: -1;
+}
+
+ /* body{
+    background: orange;
+  }*/
+  .main-header .navbar{
+    background: #fff;
+    padding: 0;
+  }
+  .main-header .navbar-brand {
+    height: auto;
+    padding: 8px 15px;
+    line-height: inherit;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #267b8d;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+.main-header .navbar-nav{
+  padding: 0;
+}
+
+.main-header .navbar-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse {
+    background: #267b8d;
+    padding: 15px 11px;
+}
+
+.main-header .navbar-nav>li>a{
+  border-radius: 15px;
+    margin: 5px 0px;
+}
+
+.main-header .navbar-nav>li.active {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.slider-caption {
+    width: 100%;
+    padding: 20px 0px;
+    padding-bottom: 71px;
+}
+
+.item_caption h1 {
+    font-weight: 700;
+    font-size: 33px;
+    color: #fff;
+}
+
+.item_caption p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 13px 0px;
+}
+
+.item_caption {
+    width: 100%;
+    padding: 26px 0px;
+    padding-bottom: 6px;
+}
+
+.features_item {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.item_data{
+  margin:10px 0px;
+}
+
+.item_data:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 387px;
+    height: 63px;
+    background-color: #fff;
+    right: -5px;
+    bottom: -46px;
+}
+
+.title_box h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 31px;
+}
+
+.title_box p {
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.features_menu .nav-tabs>li>a{
+  padding: 5px 11px;
+    font-size: 12px;
+}
+
+.features_content ul li {
+    display: inline-block;
+    width: 100%;
+    max-width: 46%;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.feature_overview{
+  padding-bottom: 104px;
+}
+.p1{
+  top: 0;
+}
+.package_plan_data {
+    width: 100%;
+    text-align: center;
+    background: #e8e8e8;
+    padding: 30px 15px;
+    margin: 10px 0px;
+}
+
+.testimonail_data img {
+    margin: 0px 0px;
+}
+
+.testimonail_data p {
+    font-size: 9px;
+}
+
+.testi_ca {
+    padding: 9px 0px;
+}
+
+.testimonail_data h2 {
+    padding-top: 0;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+.changestes .testi_ca {
+    padding-left: 10px;
+}
+
+.testimonail_client{
+  padding: 30px 0px;
+}
+
+.faq_img {
+    padding: 0px 0px;
+}
+.faq_img img{
+    width:100%;
+}
+
+.img-buy-features {
+    position: relative;
+    top: 0;
+}
+
+.img-buy-features img{
+    width:100%;
+}
+
+.img-caption_iphone {
+    text-align: left;
+    padding: 0px 0px;
+    width: 100%;
+    position: relative;
+    right: 0;
+    z-index: 1;
+    max-width: 175px;
+    display: none;
+}
+ 
+}
